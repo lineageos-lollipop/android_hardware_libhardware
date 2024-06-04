@@ -146,6 +146,10 @@ enum {
     /* SEC Private usage , for Overlay path at HWC */
     GRALLOC_USAGE_HWC_HWOVERLAY         = 0x20000000,
 #endif
+
+#ifdef MTK_HARDWARE
+    GRALLOC_USAGE_SECURE                = 0x01000000,
+#endif
 };
 
 /*****************************************************************************/
